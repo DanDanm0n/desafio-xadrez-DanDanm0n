@@ -6,7 +6,7 @@
 
 // Recursividade da Torre
 void movimentacaotorre(int n) {
-for (n = 0; n <= 5; n++) {
+for (n = 1; n <= 5; n++) {
         printf("Direita\n");
     }
 }
@@ -38,10 +38,10 @@ void movimentaçãorainha(int n) {
 int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
-    int torre; //Moverá 5 casas para a direita
-    int bispo; //Moverá 5 casas para a cima e direita
-    int rainha; //Moverá 5 casas para a esquerda
-    int cavalo; //Moverá 4 casa para baixo e uma casa para a esquerda
+    int torre = 1; //Moverá 5 casas para a direita
+    int bispo = 1; //Moverá 5 casas para a cima e direita
+    int rainha = 1; //Moverá 5 casas para a esquerda
+    int cavalo = 1; //Moverá 4 casa para baixo e uma casa para a esquerda
 
     // Implementação de Movimentação do Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
